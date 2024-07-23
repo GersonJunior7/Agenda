@@ -26,11 +26,15 @@
                             <td class="actions">
                                 <a href="<?= $BASE_URL ?>show.php?id=<?= $contact['id'] ?>"><i class="fas fa-eye check-icon"></i></a>
                                 <a href="<?= $BASE_URL ?>edit.php?id=<?= $contact['id'] ?>"><i class="far fa-edit edit-icon"></i></a>
+<<<<<<< HEAD
                                 <form class="delete-form" action="<?= $BASE_URL ?>config/process.php" method="post">
                                     <input type="hidden" name="type" value="delete">
                                     <input type="hidden" name="id" value="<?= $contact['id'] ?>">
                                 <button type="submit" class="delete-btn"><i class="fas fa-times delete-icon"></i></button>
                                 </form>
+=======
+                                <button type="submit" class="delete-btn"><i class="fas fa-times delete-icon"></i></button>
+>>>>>>> 314ff88cf51b68dc9a8d399c331ef36d6522e7bd
                             </td>
                         </tr>
                     <?php endforeach; ?>
